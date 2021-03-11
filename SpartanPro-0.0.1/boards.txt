@@ -1,0 +1,65 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+# New custom board with ATmega38P based on Arduino Nano 
+Spartan.name=Spartan_Pro
+
+Spartan.upload.tool=avrdude
+Spartan.upload.protocol=arduino
+
+Spartan.bootloader.tool=avrdude
+Spartan.bootloader.unlock_bits=0x3F
+Spartan.bootloader.lock_bits=0x0F
+
+Spartan.build.f_cpu=16000000L
+Spartan.build.board=AVR_NANO
+Spartan.build.core=arduino
+Spartan.build.variant=eightanaloginputs
+
+## Arduino Nano w/ ATmega328P
+## --------------------------
+Spartan.menu.cpu.atmega328=ATmega328P
+
+Spartan.menu.cpu.atmega328.upload.maximum_size=30720
+Spartan.menu.cpu.atmega328.upload.maximum_data_size=2048
+Spartan.menu.cpu.atmega328.upload.speed=115200
+
+Spartan.menu.cpu.atmega328.bootloader.low_fuses=0xFF
+Spartan.menu.cpu.atmega328.bootloader.high_fuses=0xDA
+Spartan.menu.cpu.atmega328.bootloader.extended_fuses=0xFD
+Spartan.menu.cpu.atmega328.bootloader.file=optiboot/optiboot_atmega328.hex
+
+Spartan.menu.cpu.atmega328.build.mcu=atmega328p
+
+## Arduino Nano w/ ATmega328P (old bootloader)
+## --------------------------
+Spartan.menu.cpu.atmega328old=ATmega328P (Old Bootloader)
+
+Spartan.menu.cpu.atmega328old.upload.maximum_size=30720
+Spartan.menu.cpu.atmega328old.upload.maximum_data_size=2048
+Spartan.menu.cpu.atmega328old.upload.speed=57600
+
+Spartan.menu.cpu.atmega328old.bootloader.low_fuses=0xFF
+Spartan.menu.cpu.atmega328old.bootloader.high_fuses=0xDA
+Spartan.menu.cpu.atmega328old.bootloader.extended_fuses=0xFD
+Spartan.menu.cpu.atmega328old.bootloader.file=atmega/ATmegaBOOT_168_atmega328.hex
+
+Spartan.menu.cpu.atmega328old.build.mcu=atmega328p
+
+## Arduino Nano w/ ATmega168
+## -------------------------
+Spartan.menu.cpu.atmega168=ATmega168
+
+Spartan.menu.cpu.atmega168.upload.maximum_size=14336
+Spartan.menu.cpu.atmega168.upload.maximum_data_size=1024
+Spartan.menu.cpu.atmega168.upload.speed=19200
+
+Spartan.menu.cpu.atmega168.bootloader.low_fuses=0xff
+Spartan.menu.cpu.atmega168.bootloader.high_fuses=0xdd
+Spartan.menu.cpu.atmega168.bootloader.extended_fuses=0xF8
+Spartan.menu.cpu.atmega168.bootloader.file=atmega/ATmegaBOOT_168_diecimila.hex
+
+Spartan.menu.cpu.atmega168.build.mcu=atmega168
+
