@@ -16,7 +16,7 @@
           "checksum": "SHA-256:61f3d59a2ab2e9191230e91e79ee91c05f32b32c33129d34d76ef87e56d257e1",
           "size": "5940950",
           "boards": [
-            {"name": "SpartanPro"},
+            {"name": "Spartan_Pro"},
           ],
           "toolsDependencies": [
             {
