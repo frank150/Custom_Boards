@@ -5,18 +5,12 @@
       "maintainer": "Arduino",
       "websiteURL": "http://www.QuantumFRobotics_Example.mx/",
       "email": "ejemplo@hotmail.com",
-      "help": {
-        "online": "http://www.QuantumFRobotics_Example.mx/en/Reference/HomePage"
-      },
       "platforms": [
         {
           "name": "Spartan Boards",
           "architecture": "avr",
           "version": "0.0.1",
           "category": "Contributed",
-          "help": {
-            "online": "http://www.QuantumFRobotics_Example.mx/en/Reference/HomePage"
-          },
           "url": "https://github.com/frank150/Custom_Boards/blob/main/SpartanPro-0.0.1.zip?raw=true",
           "archiveFileName": "SpartanPro-0.0.1.zip",
           "checksum": "SHA-256:61f3d59a2ab2e9191230e91e79ee91c05f32b32c33129d34d76ef87e56d257e1",
